@@ -37,3 +37,7 @@ Pipeline Process:
   Code is well doucmented and easy to read
   Clear documentation of each step, show what you have done
   Evidence version control
+
+Dependencies Required:
+Pandas
+openpyxl
