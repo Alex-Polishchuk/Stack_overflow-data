@@ -1,42 +1,18 @@
 # Xander_Project
 
-The goal of this project is to build a data pipeline that extracts data from external source, transforms the data and loads it into a data storage facility.
+This project includes the importing, cleaning, transformation, storage and visualisation of the raw data from the 2022 stack overflow (SO) survey
 
-Recommended steps:
-1. Choose your data source
-2. Extract the data
-3. Clean and transform the data
-4. Load the data into a data storage facility
+**Folder** named **Data**; contains, unsurprisingly, the raw data which has been cleaned to fit the max gitHub file size. This contains the original survey data as well as the clean data with renamed columns
 
-Addtional steps:
-1. Can I schedule the pipeline. Look at cron jobs or task scheduler
-2. Perhaps add some visualisations to the final stage of the pipeline. Ie visualisations
+**Folder** named **Data**; contains csv files which have been transformed ready for visualisations from the survey data, ready to be visualised with seaborn or powerBI.
 
-Clients:
-Adam
-Alex
+**File** named *column_rename.ipynb*; renames the columns of stack overflow data for clarity
 
-Goals:
-Demonstrate strenghts and showcase which tools I can deploy.
-Do not only stick to academy training
-Think about wider consultancy skills and manage the deadline
+**File** named *data_to_fitSize.ipynb*; removes unnecessary data so that raw data can fit into 100MB file size limit
 
-Mark Scheme
+**File** named *population_count.ipynb*; cleans population data, calculates the per capita number of respondents to the stack overflow (data is normalised)
 
-Data souce:
-  Is the data source appropriate and justified?
-  Have you collected data from mulitple sources
-  
-Pipeline Process:
-  Appropriate and justified tools were used to extract the data
-  Evidence that data is cleaned and transformed into a desired format
-  Appropriate data handling, remove values, create tables with appropriate columns etc
-  Data storage, facility chosen is facilitated and justified.
-  
- Overall presentation:
-  Code is well doucmented and easy to read
-  Clear documentation of each step, show what you have done
-  Evidence version control
+**File** named *survey_result_explore.ipynb*; initial exploration of data, calculates the number of developers who use / want to learn certain programming languages and database technologies
 
 Dependencies Required:
 Pandas
