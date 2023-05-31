@@ -17,3 +17,5 @@ This project includes the importing, cleaning, transformation, storage and visua
 Dependencies Required:
 Pandas
 openpyxl
+MatPlotLib
+Plotly
