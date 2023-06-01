@@ -28,3 +28,4 @@ Pandas
 openpyxl
 MatPlotLib
 Plotly
+SQLLite3
