@@ -23,6 +23,8 @@ This project includes the importing, cleaning, transformation, storage and visua
 
 **File** named *python_data_vis.ipynb*; showcasing some python visualisations with some simpler data in the survey
 
+**File** named *store_as_db.ipynb*; store the csv files using sql database for alternate storage method
+
 Dependencies Required:
 Pandas
 openpyxl
