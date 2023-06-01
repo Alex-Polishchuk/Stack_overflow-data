@@ -11,6 +11,8 @@ This project includes the importing, cleaning, transformation, storage and visua
 **Folder** named **Database**; contains SQL database files which have been transformed and ready for storage.
 
 **Notebooks:**
+
+
 **File** named *column_rename.ipynb*; renames the columns of stack overflow data for clarity
 
 **File** named *data_to_fitSize.ipynb*; removes unnecessary data so that raw data can fit into 100MB file size limit, original file can be found [here](https://insights.stackoverflow.com/survey)
