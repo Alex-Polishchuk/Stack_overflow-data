@@ -32,5 +32,5 @@ Plotly,
 SQLLite3
 
 ### Some example data visualisation: 
-[Education Level](C:\Users\AlexanderTkachenko\OneDrive - JCW Resourcing\Desktop\"degree plot.png")
-[Years Coding](C:\Users\AlexanderTkachenko\OneDrive - JCW Resourcing\Desktop\"years to code.png")
+![Education Level](C:\Users\AlexanderTkachenko\OneDrive - JCW Resourcing\Desktop\"degree plot.png")
+![Years Coding](C:\Users\AlexanderTkachenko\OneDrive - JCW Resourcing\Desktop\"years to code.png")
