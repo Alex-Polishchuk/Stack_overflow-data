@@ -25,8 +25,12 @@ This project includes the importing, cleaning, transformation, storage and visua
 **File** named *store_as_db.ipynb*; store the csv files using sql database for alternate storage method
 
 Dependencies Required:
-Pandas
-openpyxl
-MatPlotLib
-Plotly
+Pandas, 
+openpyxl, 
+MatPlotLib, 
+Plotly, 
 SQLLite3
+
+### Some example data visualisation: 
+[Education Level](C:\Users\AlexanderTkachenko\OneDrive - JCW Resourcing\Desktop\"degree plot.png")
+[Years Coding](C:\Users\AlexanderTkachenko\OneDrive - JCW Resourcing\Desktop\"years to code.png")
